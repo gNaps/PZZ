@@ -1,0 +1,63 @@
+#about {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#about h2 {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.pic-about {
+    min-height: 300px;
+    width: 100%;
+    background: url('src/assets/pic-about.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#menu {
+    padding: 30px;
+    background: #244F26;
+}
+
+#menu h2{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.btn-menu {
+    height: 30px;
+    width: 150px;
+    background: #F55536;
+    padding-bottom: 30px;
+    color: #fff;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#contacts {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contacts i {
+    color: #003049;
+}
+
+#contacts button {
+    background: #003049;
+    border-color: #003049;
+}
+
+#map {
+    height: 500px;
+}

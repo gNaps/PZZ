@@ -1,0 +1,13 @@
+#head {
+    background: url('src/assets/bg-head.jpeg');
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    min-height: 400px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+
+#head .display-3 {
+   font-weight: 700;
+}

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PZZ';
+  constructor() {}
+
+  hamburger() {
+    var ham = document.querySelector(".hamburger");
+    ham.classList.toggle("is-active");
+  }
 }
